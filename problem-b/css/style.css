@@ -15,7 +15,7 @@ rect {
     fill: white;
 }
 
-.contained {
+.contained circle, .contained rect {
     fill: #c0c0c0;
     stroke: none;
     opacity: 1;

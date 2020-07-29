@@ -23,7 +23,7 @@ img {
     width: 100px;
 }
 
-td {
+th, td {
     padding: .5em;
     border-bottom: 1px solid #d3d3d3;
 }
