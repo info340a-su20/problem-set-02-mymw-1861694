@@ -5,24 +5,29 @@
     <title>Informatics</title>
 
     <!-- normalize.css for cross-browser stuff -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@900&family=Open+Sans&display=swap"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div id="skiplink">
+        <a href="#maincontent"></a>
+    </div>
     <nav>
         <ul>
-            <li><a href="#">Informatics</a></li>
+            <li><a href="#"><span aria-hidden="true" class="logo">&nbsp;</span>Informatics</a></li>
             <li><a href="#courses">Courses</a></li>
             <li><a href="#admissions">Admissions</a></li>
             <li><a href="#faculty">Faculty</a></li>
         </ul>
         <div class="searchBox" role="search">
             <input type="text" placeholder="Search...">
-            <button>Search</button>
+            <button aria-label="Search button"><i class="fas fa-search fa-flip-horizontal"></i></button>
         </div>
     </nav>
 
-    <main>
+    <main id="maincontent">
         <h1>WHAT IS INFORMATICS?</h1>
 
         <p>The term "informatics" broadly describes the study and practice of creating, storing, finding, manipulating and sharing information. When the iSchool chose "informatics" as the name of its 
