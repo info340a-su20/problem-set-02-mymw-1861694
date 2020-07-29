@@ -11,19 +11,21 @@ table {
     border-collapse: collapse;
 }
 
-thead {
-    height: 2rem;
-    text-align: left;
-    color: #1db954;
-    background-color: #d3d3d3;
-}
-
 img {
     height: 100px;
     width: 100px;
 }
 
-th, td {
+th {
+    height: 2rem;
+    text-align: left;
+    color: #1db954;
+    background-color: #d3d3d3;
+    padding: .5em;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+td {
     padding: .5em;
     border-bottom: 1px solid #d3d3d3;
 }
